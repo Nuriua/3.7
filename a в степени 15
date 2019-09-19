@@ -1,0 +1,13 @@
+#include <math.h>
+#include <iostream>
+using namespace std;
+int main()
+{   
+	float a, x, y;
+	cout << "Vvedite A = ";
+	cin >> a;
+	x = pow(a, 3);
+	y = x*x*x*x*x;
+	cout << y;
+	return 0;
+}
